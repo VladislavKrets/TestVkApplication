@@ -18,7 +18,7 @@ public class Controller {
         String password = (String) model.getAttribute("j_password");
 
         System.out.println(login + " " + password);
-        
+
         return "auth";
     }
 
