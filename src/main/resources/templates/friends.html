@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Friends</title>
+    <link rel="stylesheet" th:href="@{/css/friends.css}">
+</head>
+<body>
+    <form method="post" action="#" class="exit_form">
+        <input type="submit" value="Exit" class="exit_button">
+    </form>
+    <div class="profile_name" th:utext="${profile_name}"></div>
+    <div class="names" th:utext="${name}">
+    </div>
+</body>
+</html>

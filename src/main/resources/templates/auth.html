@@ -1,17 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Auth</title>
+    <link rel="stylesheet" th:href="@{/css/auth.css}">
 </head>
 <body>
-    <form action="/">
-        Login <br>
-        <input type="text" name="j_username"> <br>
-        Password <br>
-        <input type="password" name="j_password">
-        <br>
-        <input type="submit" value="Log in">
+    <form action="#" method="post" class="authorize_form">
+        <input type="submit" value="Authorize" class="authorize_button">
     </form>
 </body>
 </html>

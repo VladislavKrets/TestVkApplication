@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.authorize_form{
+    margin-top: 30px;
+    text-align: center;
+}
+.authorize_button{
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 70px;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+}

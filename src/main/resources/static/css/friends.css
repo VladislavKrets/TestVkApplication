@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.names{
+    margin-top: 30px;
+    text-align: center;
+}
+.profile_name{
+    font-size: larger;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+}
+.names{
+    font-size: medium;
+    font-weight: normal;
+    color: cadetblue;
+}
+.exit_form{
+    margin-top: 30px;
+    text-align: center;
+}
+.exit_button{
+    background-color: blue;
+    color: white;
+    width: 170px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
